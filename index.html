@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ENIOLA FITNESS | General Fitness Gym</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=JetBrains+Mono:wght@400;600&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <div class="logo">ENI<span>OLA</span> FITNESS</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#schedule">Schedule</a></li>
+      <li><a href="#join">Join</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div style="display:flex; gap:14px; align-items:center;">
+      <a href="#contact" class="btn btn-primary nav-cta">Join Now</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="spark" style="left:15%; width:3px; height:3px; animation-delay:0s; --drift:20px;"></div>
+  <div class="spark" style="left:32%; width:2px; height:2px; animation-delay:1.2s; --drift:-15px;"></div>
+  <div class="spark" style="left:55%; width:4px; height:4px; animation-delay:2.1s; --drift:25px;"></div>
+  <div class="spark" style="left:70%; width:2px; height:2px; animation-delay:0.6s; --drift:-10px;"></div>
+  <div class="spark" style="left:85%; width:3px; height:3px; animation-delay:3s; --drift:15px;"></div>
+  <div class="spark" style="left:45%; width:2px; height:2px; animation-delay:1.8s; --drift:10px;"></div>
+
+  <div class="wrap hero-inner">
+    <div class="eyebrow">General Fitness &middot; Est. Lagos</div>
+    <h1>BUILD THE<br><span class="grad-text">STRONGEST</span><br>VERSION OF YOU</h1>
+    <p class="sub">Strength training, conditioning, and coaching under one roof. No judgment, no gimmicks — just consistent work that adds up.</p>
+    <div class="hero-cta">
+      <a href="#join" class="btn btn-primary">Start Your First Week Free</a>
+      <a href="#schedule" class="btn btn-ghost">View Class Schedule</a>
+    </div>
+
+    <div class="plate-strip">
+      <div class="plate"><div class="num">4<span>5</span>+</div><div class="lbl">Classes / Week</div></div>
+      <div class="plate"><div class="num">1<span>2</span></div><div class="lbl">Certified Trainers</div></div>
+      <div class="plate"><div class="num">6</div><div class="lbl">Days Open</div></div>
+      <div class="plate"><div class="num">24<span>/</span>7</div><div class="lbl">Members Access</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="wrap about-grid">
+    <div>
+      <div class="plate-visual">
+        <div class="ring r1"></div>
+        <div class="ring r2"></div>
+        <div class="photo-plate">
+          <img src="images/about.jpg" alt="Member training with a barbell on the Forge Fitness gym floor" loading="lazy">
+        </div>
+        <div class="badge">
+          <div class="big">01</div>
+          <div class="small">Day One</div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="eyebrow">Why Forge</div>
+      <h2>Built on the basics, done properly.</h2>
+      <ul class="about-list">
+        <li>
+          <div class="mk"><span>+</span></div>
+          <div>
+            <h4>Coaching that corrects, not just counts</h4>
+            <p>Every session is watched. Your form gets fixed before it becomes a habit — or an injury.</p>
+          </div>
+        </li>
+        <li>
+          <div class="mk"><span>+</span></div>
+          <div>
+            <h4>Equipment that actually works</h4>
+            <p>Full free-weight floor, machines, and open space for conditioning. Nothing rusted, nothing missing plates.</p>
+          </div>
+        </li>
+        <li>
+          <div class="mk"><span>+</span></div>
+          <div>
+            <h4>A schedule built around real life</h4>
+            <p>Early morning, lunch break, and evening classes so training fits your day, not the other way round.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="schedule" id="schedule">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="eyebrow">This Week</div>
+      <h2>Class Schedule</h2>
+      <p>Walk in or reserve a spot. Classes run rain or shine, and the floor is open for personal training around every session.</p>
+    </div>
+
+    <div class="board">
+      <table>
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Monday</th>
+            <th>Wednesday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="time-cell">6:00 AM</td>
+            <td><span class="class-tag strength">Strength Foundations</span><span class="trainer">Coach Tunde</span></td>
+            <td><span class="class-tag hiit">HIIT Circuit</span><span class="trainer">Coach Ada</span></td>
+            <td><span class="class-tag strength">Strength Foundations</span><span class="trainer">Coach Tunde</span></td>
+            <td><span class="class-tag cardio">Endurance Run Club</span><span class="trainer">Coach Femi</span></td>
+          </tr>
+          <tr>
+            <td class="time-cell">12:00 PM</td>
+            <td><span class="class-tag cardio">Lunch Burn Cardio</span><span class="trainer">Coach Ada</span></td>
+            <td><span class="class-tag rest">Open Floor</span></td>
+            <td><span class="class-tag cardio">Lunch Burn Cardio</span><span class="trainer">Coach Ada</span></td>
+            <td><span class="class-tag strength">Full Body Strength</span><span class="trainer">Coach Tunde</span></td>
+          </tr>
+          <tr>
+            <td class="time-cell">5:30 PM</td>
+            <td><span class="class-tag hiit">HIIT Circuit</span><span class="trainer">Coach Femi</span></td>
+            <td><span class="class-tag strength">Full Body Strength</span><span class="trainer">Coach Tunde</span></td>
+            <td><span class="class-tag hiit">HIIT Circuit</span><span class="trainer">Coach Femi</span></td>
+            <td><span class="class-tag recovery">Mobility &amp; Recovery</span><span class="trainer">Coach Ada</span></td>
+          </tr>
+          <tr>
+            <td class="time-cell">7:00 PM</td>
+            <td><span class="class-tag recovery">Mobility &amp; Recovery</span><span class="trainer">Coach Ada</span></td>
+            <td><span class="class-tag cardio">Evening Cardio</span><span class="trainer">Coach Femi</span></td>
+            <td><span class="class-tag rest">Open Floor</span></td>
+            <td><span class="class-tag rest">Closed &mdash; Gym Only</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="schedule-note">Sunday &amp; Tuesday: gym floor open, no scheduled classes</div>
+  </div>
+</section>
+
+<section class="gallery">
+  <div class="wrap">
+    <div class="sec-head" style="margin-bottom:40px;">
+      <div class="eyebrow">Inside Forge</div>
+      <h2>The floor, the sweat, the reps.</h2>
+    </div>
+    <div class="gallery-grid">
+      <figure>
+        <img src="images/gallery-floor.jpg" alt="Full gym floor with rows of free weights and equipment" loading="lazy">
+        <figcaption>The Floor</figcaption>
+      </figure>
+      <figure>
+        <img src="images/gallery-group.jpg" alt="Members training together in a group class" loading="lazy">
+        <figcaption>Group Classes</figcaption>
+      </figure>
+      <figure>
+        <img src="images/gallery-dumbbell.jpg" alt="Close-up of a gym dumbbell" loading="lazy">
+        <figcaption>Free Weights</figcaption>
+      </figure>
+      <figure>
+        <img src="images/hero.jpg" alt="Member holding a barbell, ready to train" loading="lazy">
+        <figcaption>Every Session</figcaption>
+      </figure>
+      <figure>
+        <img src="images/about.jpg" alt="Member mid-lift with a barbell" loading="lazy">
+        <figcaption>Strength Work</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band" id="join">
+  <div class="wrap">
+    <div class="eyebrow" style="justify-content:center;">Ready When You Are</div>
+    <h2>Your first week<br><span class="grad-text">is on us.</span></h2>
+    <p>No contract, no pressure. Come train, meet the coaches, and decide for yourself.</p>
+    <div class="hero-cta">
+      <a href="#contact" class="btn btn-primary">Claim Free Week</a>
+    </div>
+  </div>
+</section>
+
+<footer id="contact">
+  <div class="wrap">
+    <div class="contact-grid">
+      <div>
+        <div class="eyebrow">Get In Touch</div>
+        <h2 style="font-size:clamp(1.8rem, 4vw, 2.6rem); margin-bottom:30px;">Come see the floor for yourself.</h2>
+
+        <div class="contact-item">
+          <div class="ic">&#9742;</div>
+          <div>
+            <div class="lbl">Phone</div>
+            <a class="val" href="tel:+2349123462424">0912 346 2424</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="ic">&#9993;</div>
+          <div>
+            <div class="lbl">Email</div>
+            <a class="val" href="mailto:eniolaolukade2006@gmail.com">eniolaolukade2006@gmail.com</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="ic">&#128205;</div>
+          <div>
+            <div class="lbl">Location</div>
+            <div class="val">Lagos, Nigeria</div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="lbl" style="font-family:'JetBrains Mono'; font-size:0.72rem; letter-spacing:0.1em; text-transform:uppercase; color:#8a8d8f; margin-bottom:16px;">Opening Hours</div>
+        <table class="hours-table">
+          <tr><td>Mon &ndash; Fri</td><td>5:00 AM &ndash; 10:00 PM</td></tr>
+          <tr><td>Saturday</td><td>7:00 AM &ndash; 8:00 PM</td></tr>
+          <tr><td>Sunday</td><td>8:00 AM &ndash; 4:00 PM (floor only)</td></tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="foot-bottom">
+      <div>&copy; 2026 Forge Fitness. All rights reserved.</div>
+      <div>Built to train, not to impress.</div>
+    </div>
+  </div>
+</footer>
+
+<script src="index.js"></script>
+
+</body>
+</html>
